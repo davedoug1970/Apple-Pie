@@ -21,10 +21,10 @@ let package = Package(
         .target(
             name: "Apple-Pie",
             dependencies: [],
-            path: "Apple Pie"),
+            path: "./Apple Pie"),
         .testTarget(
             name: "Apple-PieTests",
             dependencies: ["Apple-Pie"],
-            path: "Apple-PieTests"),
+            path: "./Apple-PieTests"),
     ]
 )
