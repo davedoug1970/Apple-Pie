@@ -37,20 +37,20 @@
 
 /* Begin PBXFileReference section */
 		7277FF83252E5AF100B038A4 /* Apple Pie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7277FF86252E5AF100B038A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7277FF88252E5AF100B038A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7277FF8A252E5AF100B038A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7277FF86252E5AF100B038A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Apple-Pie/AppDelegate.swift"; sourceTree = "<group>"; };
+		7277FF88252E5AF100B038A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "Apple-Pie/SceneDelegate.swift"; sourceTree = "<group>"; };
+		7277FF8A252E5AF100B038A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Apple-Pie/ViewController.swift"; sourceTree = "<group>"; };
 		7277FF8D252E5AF100B038A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7277FF8F252E5AF100B038A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7277FF8F252E5AF100B038A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Apple-Pie/Assets.xcassets"; sourceTree = "<group>"; };
 		7277FF92252E5AF100B038A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7277FF94252E5AF100B038A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7277FF94252E5AF100B038A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Apple-Pie/Info.plist"; sourceTree = "<group>"; };
 		7277FF99252E5AF100B038A4 /* Apple PieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7277FF9D252E5AF100B038A4 /* Apple_PieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieTests.swift; sourceTree = "<group>"; };
 		7277FF9F252E5AF100B038A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7277FFA4252E5AF100B038A4 /* Apple PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7277FFA8252E5AF100B038A4 /* Apple_PieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieUITests.swift; sourceTree = "<group>"; };
 		7277FFAA252E5AF100B038A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72B5629B252F5A66004370BA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		72B5629B252F5A66004370BA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Game.swift; path = "Apple-Pie/Game.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 				7277FF91252E5AF100B038A4 /* LaunchScreen.storyboard */,
 				7277FF94252E5AF100B038A4 /* Info.plist */,
 			);
-			path = "Apple Pie";
+			name = "Apple Pie";
 			sourceTree = "<group>";
 		};
 		7277FF9C252E5AF100B038A4 /* Apple PieTests */ = {
@@ -119,7 +119,8 @@
 				7277FF9D252E5AF100B038A4 /* Apple_PieTests.swift */,
 				7277FF9F252E5AF100B038A4 /* Info.plist */,
 			);
-			path = "Apple PieTests";
+			name = "Apple PieTests";
+			path = "Apple-PieTests";
 			sourceTree = "<group>";
 		};
 		7277FFA7252E5AF100B038A4 /* Apple PieUITests */ = {
@@ -128,7 +129,8 @@
 				7277FFA8252E5AF100B038A4 /* Apple_PieUITests.swift */,
 				7277FFAA252E5AF100B038A4 /* Info.plist */,
 			);
-			path = "Apple PieUITests";
+			name = "Apple PieUITests";
+			path = "Apple-PieUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +308,7 @@
 				7277FF8D252E5AF100B038A4 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "Apple-Pie";
 			sourceTree = "<group>";
 		};
 		7277FF91252E5AF100B038A4 /* LaunchScreen.storyboard */ = {
@@ -314,6 +317,7 @@
 				7277FF92252E5AF100B038A4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "Apple-Pie";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -440,8 +444,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				DEVELOPMENT_TEAM = V46QWZQ9X2;
+				INFOPLIST_FILE = "$(SRCROOT)/Apple-Pie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,8 +464,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				DEVELOPMENT_TEAM = V46QWZQ9X2;
+				INFOPLIST_FILE = "$(SRCROOT)/Apple-Pie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,6 +484,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Apple PieTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -497,6 +506,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Apple PieTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
