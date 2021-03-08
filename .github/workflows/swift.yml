@@ -13,6 +13,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install gpg
+      run: brew install gnupg
+    - name: Setup provisioning profile
+      env: 
+        IOS_KEYS: ${{ secrets.IOS_KEYS }}
+      run: ./.github/secrets/decrypt_secrets.sh
     - name: Build
       run: xcodebuild build -workspace 'Apple Pie.xcodeproj/project.xcworkspace' -scheme 'Apple Pie' -allowProvisioningUpdates
  
