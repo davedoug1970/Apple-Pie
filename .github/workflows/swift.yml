@@ -20,5 +20,5 @@ jobs:
         IOS_KEYS: ${{ secrets.IOS_KEYS }}
       run: ./.github/secrets/decrypt_secrets.sh
     - name: Build
-      run: xcodebuild build -workspace 'Apple Pie.xcodeproj/project.xcworkspace' -scheme 'Apple Pie' -allowProvisioningUpdates
+      run: xcodebuild build -workspace 'Apple Pie.xcodeproj/project.xcworkspace' -scheme 'Apple Pie' -allowProvisioningUpdates PROVISIONING_PROFILE="d7c959d2-49a0-4df7-bdb1-2d7109ef577d"
  
